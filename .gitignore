@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environment
+.env
+venv/
+.venv/
+
+# Data & model artifacts (too large for git)
+data/
+models/
+outputs/
+images/
+*.npy
+*.json
+*.log
+
+# Keep example configs
+!.env.example
