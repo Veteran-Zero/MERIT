@@ -1,13 +1,6 @@
 # MERIT: Memory-Enhanced Retrieval for Interpretable Knowledge Tracing
 
-[![arXiv](https://img.shields.io/badge/arXiv-2603.22289-b31b1b.svg)](https://arxiv.org/abs/2603.22289)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-Official implementation of the ACM paper:
-
-> **MERIT: Memory-Enhanced Retrieval for Interpretable Knowledge Tracing**  
-> Anonymous Authors  
-> *Under review*
 
 ---
 
@@ -185,19 +178,6 @@ Output: `outputs/ablation_<mode>.json`
 | `BETA` | 0.3 | Sparse (BM25) score weight in hybrid retrieval |
 | `SIMILARITY_THRESHOLD` | 0.4 | Minimum hybrid score to retain a candidate |
 | `BERTOPIC_NR_TOPICS` | 20 | Number of cognitive schema clusters |
-
----
-
-## Citation
-
-```bibtex
-@article{anonymous2026merit,
-  title   = {MERIT: Memory-Enhanced Retrieval for Interpretable Knowledge Tracing},
-  author  = {Anonymous Authors},
-  journal = {arXiv preprint arXiv:2603.22289},
-  year    = {2026}
-}
-```
 
 ---
 
